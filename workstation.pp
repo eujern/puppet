@@ -11,7 +11,8 @@ $enhancers = [
     "subversion",
     "transmission",
     "vlc",
-    "nautilus-dropbox"
+    "nautilus-dropbox",
+    "nginx"
 ]
 
 package { $enhancers: }
