@@ -12,14 +12,9 @@ $enhancers = [
     "transmission",
     "vlc",
     "nautilus-dropbox",
-    "nginx"
+    "nginx",
+    "python",
+    "ruby"
 ]
 
 package { $enhancers: }
-
-# TODO too old, script to fetch latest
-#package { "eclipse":
-#    ensure => "installed"
-#}
-# chrome
-# firefox
