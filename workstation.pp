@@ -13,6 +13,7 @@ $enhancers = [
     "vlc",
     "nautilus-dropbox",
     "nginx",
+    "oracle-java7-installer",
     "python",
     "ruby"
 ]
