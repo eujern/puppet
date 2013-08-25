@@ -1,4 +1,5 @@
 bindkey ^[[1;3D prev
 bindkey ^[[1;3C next
+bindkey ^[[1;4C focus
 caption always "%{Wb} %H %{Bk}| %{Ck}%-w%50>%{Cb} %n %t %{-}%+w%<%{- Wk}%{Bk} | %=%{Wb} %C "
 defscrollback 100000
