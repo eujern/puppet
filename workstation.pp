@@ -15,6 +15,8 @@ $enhancers = [
     "nginx",
     "oracle-java7-installer",
     "python",
+    "python-pip",
+    "python-dev",
     "ruby"
 ]
 
