@@ -30,4 +30,4 @@ alias gsl='git stash list'
 
 alias mci='mvn clean install'
 
-alias ffile='find . | grep -R'
+alias ffile='find . | grep '
