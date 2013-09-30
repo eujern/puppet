@@ -17,7 +17,8 @@ $enhancers = [
     "python",
     "python-pip",
     "python-dev",
-    "ruby"
+    "ruby",
+    "ruby-dev"
 ]
 
 package { $enhancers: }
