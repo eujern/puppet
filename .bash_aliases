@@ -24,7 +24,7 @@ alias s='git status -s'
 alias d='git diff'
 alias b='git branch'
 alias l="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
-alias p='git log origin/master.. --stat'
+alias p='git log origin/`git rev-parse --abbrev-ref HEAD`.. --stat'
 alias gspp='git stash; git pull; git stash pop'
 alias gsl='git stash list'
 
